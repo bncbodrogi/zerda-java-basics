@@ -1,4 +1,4 @@
-# EXAM: Java Basics
+﻿# EXAM: Java Basics
 
 ### Getting Started
  - Fork this repository under your own account
@@ -105,16 +105,20 @@ class TestApple {
 
 Are the tests passing? Detail your answer! [2p] Fix the situation! [2p]
 
+I believe both of the tests are passing. At the first you set the return value to 5 regardless of what it takes as argument, ad the test expects 5 aswell.
+At the second in the if statement decideds that a is smaller so it returns c wich is expected to be 5 in the test.
+
 #### Explain what you did, and answer the questions here:
 
 
 ## 4. Question time! (~20 mins) [6p]
 
 ### Where the abstract class is useful? [2p]
-#### Your answer:
+#### Your answer:When you want to inherit fields and methods to a subclass but still want to have defined fields and methods in the class itself.
 
 ### Describe a method! Show the necessary parts and how are them called! [2p]
-#### Your answer:
+#### Your answer:a method is a function with optional arguments and a return value. someMethod(arguments here){return value here}
 
 ### What is the constructor? When it is used? [2p]
-#### Your answer:
+#### Your answer:a constructor is the first "method" of the class. When the class gets instatiated depending on the arguments given 
+in the new Class() the matching constructor gets called and defines the instance of the class. 
