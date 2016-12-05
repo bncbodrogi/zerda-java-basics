@@ -1,6 +1,7 @@
 package com.greenfox.exams.java;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class BlackJack extends JPanel {
@@ -8,7 +9,7 @@ public class BlackJack extends JPanel {
     JPanel user, house;
     JLabel resetLabel, drawCardLabel, userLabel, houseLabel;
 
-    public BlackJack(Deck deck, Player house, Player user){
+    public BlackJack(Deck deck, Player playerHouse, Player playerUser){
         reset = new JButton();
         drawCard = new JButton();
         user = new JPanel();
@@ -17,6 +18,9 @@ public class BlackJack extends JPanel {
         drawCardLabel = new JLabel();
         userLabel = new JLabel();
         houseLabel = new JLabel();
+        deck = new Deck();
+        playerHouse = new Player();
+        playerUser = new Player();
 
         drawCardLabel.setText("Draw a Card");
         drawCardLabel.setSize(20,20);
@@ -41,11 +45,17 @@ public class BlackJack extends JPanel {
         house.add(houseLabel);
     }
 
-    public void updateUserLabel(){
+    public void updateUserLabel(Player playerUser, Deck deck){
+        playerUser.add(playerUser.played, deck.cards.get(deck.cards.size()) );
         userLabel.setText("");
+
     }
 
     private class drawCardButtonActionListener implements ActionListener {
 
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            updateUserLabel();
+        }
     }
 }

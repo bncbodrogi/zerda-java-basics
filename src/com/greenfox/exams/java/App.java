@@ -5,10 +5,7 @@ import java.awt.*;
 
 public class App {
         public static void main(String[] args) {
-            Deck deck = new Deck();
-            Player house = new Player();
-            Player user = new Player();
-            BlackJack blackJack = new BlackJack(deck, house, user);
+            BlackJack blackJack = new BlackJack(new Deck(), new Player(), new Player());
             JFrame frame = new JFrame();
 
             frame.add(blackJack);
