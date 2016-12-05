@@ -1,13 +1,14 @@
 package com.greenfox.exams.java;
 
 import javax.swing.*;
+import java.awt.event.ActionListener;
 
 public class BlackJack extends JPanel {
     JButton reset, drawCard;
     JPanel user, house;
     JLabel resetLabel, drawCardLabel, userLabel, houseLabel;
 
-    public BlackJack(){
+    public BlackJack(Deck deck, Player house, Player user){
         reset = new JButton();
         drawCard = new JButton();
         user = new JPanel();
@@ -24,6 +25,10 @@ public class BlackJack extends JPanel {
         userLabel.setText("User played: ");
         houseLabel.setText("House played: ");
 
+        drawCard.addActionListener(
+                new drawCardButtonActionListener()
+        );
+
         this.setSize(300,300);
         this.add(reset);
         this.add(drawCard);
@@ -34,13 +39,13 @@ public class BlackJack extends JPanel {
         drawCard.add(drawCardLabel);
         user.add(userLabel);
         house.add(houseLabel);
-
-
-
-
-
-
-
     }
 
+    public void updateUserLabel(){
+        userLabel.setText("");
+    }
+
+    private class drawCardButtonActionListener implements ActionListener {
+
+    }
 }

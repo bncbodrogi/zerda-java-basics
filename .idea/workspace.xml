@@ -28,9 +28,13 @@
       <file leaf-file-name="BlackJack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/greenfox/exams/java/BlackJack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-              <folding />
+            <state relative-caret-position="58">
+              <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1228#1229#0" expanded="true" />
+                <element signature="e#1265#1266#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,8 +65,8 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/greenfox/exams/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            <state relative-caret-position="318">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,8 +107,8 @@
         <option value="$PROJECT_DIR$/src/com/greenfox/exams/java/Card.java" />
         <option value="$PROJECT_DIR$/src/com/greenfox/exams/java/Player.java" />
         <option value="$PROJECT_DIR$/src/com/greenfox/exams/java/Deck.java" />
-        <option value="$PROJECT_DIR$/src/com/greenfox/exams/java/App.java" />
         <option value="$PROJECT_DIR$/src/com/greenfox/exams/java/BlackJack.java" />
+        <option value="$PROJECT_DIR$/src/com/greenfox/exams/java/App.java" />
       </list>
     </option>
   </component>
@@ -639,12 +643,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480926043662</updated>
-      <workItem from="1480926047340" duration="4886000" />
+      <workItem from="1480926047340" duration="5602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4886000" />
+    <option name="totallyTimeSpent" value="5602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -705,14 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/greenfox/exams/java/BlackJack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/greenfox/exams/java/Card.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -732,10 +728,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/greenfox/exams/java/BlackJack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1265#1266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/greenfox/exams/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        <state relative-caret-position="318">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
