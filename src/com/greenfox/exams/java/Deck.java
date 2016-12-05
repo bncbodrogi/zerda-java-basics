@@ -14,4 +14,14 @@ public class Deck {
         }
     }
 
+    public Card draw(ArrayList<Card> cards){
+        if(cards.isEmpty()){
+            return null;
+        }else{
+            Card cardDrawn = cards.get(cards.size());
+            used.add(cardDrawn);
+            return cardDrawn;
+        }
+    }
+
 }
