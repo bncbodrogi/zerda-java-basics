@@ -4,11 +4,10 @@ import javax.swing.*;
 
 public class BlackJack extends JPanel {
     JButton reset, drawCard;
-    JPanel user, house, container;
+    JPanel user, house;
     JLabel resetLabel, drawCardLabel, userLabel, houseLabel;
 
     public BlackJack(){
-        container = new JPanel();
         reset = new JButton();
         drawCard = new JButton();
         user = new JPanel();
@@ -18,15 +17,28 @@ public class BlackJack extends JPanel {
         userLabel = new JLabel();
         houseLabel = new JLabel();
 
-        container.add(reset);
-        container.add(drawCard);
-        container.add(user);
-        container.add(house);
+        drawCardLabel.setText("Draw a Card");
+        drawCardLabel.setSize(20,20);
+        resetLabel.setText("New Game");
+        resetLabel.setSize(20,20);
+        userLabel.setText("User played: ");
+        houseLabel.setText("House played: ");
+
+        this.setSize(300,300);
+        this.add(reset);
+        this.add(drawCard);
+        this.add(user);
+        this.add(house);
 
         reset.add(resetLabel);
         drawCard.add(drawCardLabel);
         user.add(userLabel);
         house.add(houseLabel);
+
+
+
+
+
 
 
     }
